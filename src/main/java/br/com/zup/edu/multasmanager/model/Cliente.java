@@ -19,7 +19,7 @@ public class Cliente {
     private String cpf;
 
     @Column(nullable = false)
-    private String rg;
+    private Integer rg;
 
     @Column(nullable = false, length = 200)
     private String endereco;
@@ -30,7 +30,7 @@ public class Cliente {
     @Column(nullable = false, length = 14)
     private String telefone;
 
-    public Cliente(String nome, String sobrenome, String cpf, String rg, String endereco, String email, String telefone) {
+    public Cliente(String nome, String sobrenome, String cpf, Integer rg, String endereco, String email, String telefone) {
         this.nome = nome;
         this.sobrenome = sobrenome;
         this.cpf = cpf;
