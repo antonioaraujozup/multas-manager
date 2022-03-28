@@ -47,4 +47,8 @@ public class Cliente {
     public Cliente() {
     }
 
+    public Long getId() {
+        return id;
+    }
+
 }
