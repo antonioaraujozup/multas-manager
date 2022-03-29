@@ -40,10 +40,10 @@ public class Cliente {
         this.telefone = telefone;
     }
 
-    @Deprecated
     /**
      * @deprecated Construtor para uso exclusivo do Hibernate
      */
+    @Deprecated
     public Cliente() {
     }
 
